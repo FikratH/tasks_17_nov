@@ -147,39 +147,39 @@
 //goto fourthTask;
 #endregion
 #region 5 Task: Find the amount of odd numbers between given two.
-Console.WriteLine("This is the application of the fifth task: finding the amount of odd numbers between given two!\n");
-fifthTask:
-Console.WriteLine("Enter the first number:");
-int firstNumInit = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter the second number:");
-int firstNum = firstNumInit;
-int secondNumInit = Convert.ToInt32(Console.ReadLine());
-int secondNum = secondNumInit;
-int count = 0;
-if (firstNum > secondNum)
-{
-    while (secondNum < firstNum - 1)
-    {
-        secondNum++;
-        if (secondNum % 2 == 1)
-        {
-            count++;
-        }
-    }
-    Console.WriteLine("The amount of odd numbers between " + firstNumInit + " and " + secondNumInit + " is " + count + ".");
-}
-else
-{
-    while (firstNum < secondNum - 1)
-    {
-        firstNum++;
-        if (firstNum % 2 == 1)
-        {
-            count++;
-        }
-    }
-    Console.WriteLine("The amount of odd numbers between " + firstNumInit + " and " + secondNumInit + " is " + count + ".");
-}
-Console.WriteLine("______________\n");
-goto fifthTask;
+//Console.WriteLine("This is the application of the fifth task: finding the amount of odd numbers between given two!\n");
+//fifthTask:
+//Console.WriteLine("Enter the first number:");
+//int firstNumInit = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Enter the second number:");
+//int firstNum = firstNumInit;
+//int secondNumInit = Convert.ToInt32(Console.ReadLine());
+//int secondNum = secondNumInit;
+//int count = 0;
+//if (firstNum > secondNum)
+//{
+//    while (secondNum < firstNum - 1)
+//    {
+//        secondNum++;
+//        if (secondNum % 2 == 1)
+//        {
+//            count++;
+//        }
+//    }
+//    Console.WriteLine("The amount of odd numbers between " + firstNumInit + " and " + secondNumInit + " is " + count + ".");
+//}
+//else
+//{
+//    while (firstNum < secondNum - 1)
+//    {
+//        firstNum++;
+//        if (firstNum % 2 == 1)
+//        {
+//            count++;
+//        }
+//    }
+//    Console.WriteLine("The amount of odd numbers between " + firstNumInit + " and " + secondNumInit + " is " + count + ".");
+//}
+//Console.WriteLine("______________\n");
+//goto fifthTask;
 #endregion
